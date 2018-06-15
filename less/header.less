@@ -1,0 +1,43 @@
+@header-color: #283593;
+@header-font: 20px;
+@animation-time: 0.3s;
+
+header {
+  margin-top: auto;
+  background: @header-color;
+  display: flex;
+  width: 100%;
+  align-items: center;
+  color: white;
+  font-size: @header-font;
+}
+.header-left {
+  display: flex;
+  align-items: center;
+  color: white;
+  justify-content: flex-start;
+}
+.header-right {
+  display: flex;
+  align-items: center;
+  color: white;
+  margin-left: auto;
+  margin-right: 10px;
+  justify-content: flex-end;
+}
+.menu-icon {
+  vertical-align: middle;
+  max-width: 10%;
+  max-height: 100%;
+  margin: 0 10px;
+}
+#menu {
+  -webkit-transition-duration: @animation-time;
+  -moz-transition-duration: @animation-time;
+  -o-transition-duration: @animation-time;
+  transition-duration: @animation-time;
+  -webkit-transition-property: -webkit-transform;
+  -moz-transition-property: -moz-transform;
+  -o-transition-property: -o-transform;
+  transition-property: transform;
+}

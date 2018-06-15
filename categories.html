@@ -1,0 +1,187 @@
+<html>
+<head>
+	<meta charset="UTF-8">
+
+	<link rel="stylesheet" type="text/css" href="styles.css" />
+	<link href="https://fonts.googleapis.com/css?family=Archivo" rel="stylesheet">
+	<script src="//cdnjs.cloudflare.com/ajax/libs/less.js/3.0.2/less.min.js" ></script>
+</head>
+</body>
+
+	<header>
+		<div class="header-left">
+		<img src="img/menu-icon.png" class="menu-icon" id="menu" onclick="navbar()"></img>
+		<p>Posters Galore Admin</p>
+		</div>
+		<div class="header-right">
+		<img src="img/logout.png" class="menu-icon"></img>
+		<a href="#"><h5>LOGOUT</h5></a>
+		</div>
+	</header>
+	
+	<div class="flex-wrapper">
+		<div class="navbar-icons">
+			<a href="#"><div class="nav-item-icon"><img src="img/dashboard.png"></img></div></a>
+			<a href="#"><div class="nav-item-icon"><img src="img/customers.png"></img></div></a>
+			<a href="#"><div class="nav-item-icon"><img src="img/segments.png"></img></div></a>
+			<a href="#"><div class="nav-item-icon"><img src="img/orders.png"></img></div></a>
+			<a href="#"><div class="nav-item-icon"><img src="img/posters.png"></img></div></a>
+			<a href="#"><div class="nav-item-icon"><img src="img/categories.png"></img></div></a>
+			<a href="#"><div class="nav-item-icon"><img src="img/reviews.png"></img></div></a>
+			<a href="#"><div class="nav-item-icon"><img src="img/configuration.png"></img></div></a>
+		</div>
+		<div id="navbar-text" class="navbar-text">
+			<a href="#"><div class="nav-item-text"><p>Dashboard</p></div></a>
+			<a href="#"><div class="nav-item-text"><p>Customers</p></div></a>
+			<a href="#"><div class="nav-item-text"><p>Segments</p></div></a>
+			<a href="#"><div class="nav-item-text"><p>Orders</p></div></a>
+			<a href="#"><div class="nav-item-text"><p>Posters</p></div></a>
+			<a href="#"><div class="nav-item-text"><p>Categories</p></div></a>
+			<a href="#"><div class="nav-item-text"><p>Reviews</p></div></a>
+			<a href="#"><div class="nav-item-text"><p>Configuration</p></div></a>
+		</div>
+		<div class="content">
+			<div class="category-header">
+				<p class="cat-header-start">Categories List</p>
+				<div class="cat-header-end">
+					<img src="img/refresh.png" class="category-icon"></img>
+					<a href="#"><h4>REFRESH</h4></a>
+				</div>
+			</div>
+			<div class="category-controls">
+				<img src="img/checkbox.png" class="category-icon">
+				<div class="name-order">
+					<p>Name</p>
+					<img src="img/arrow.png" class="category-icon">
+				</div>
+				<p></p>
+				<p></p>
+			</div>
+			<!-- <div id="category-list"></div> Javascript na vypisanie vsetkych poloziek-->
+			<div class="category-item">
+				<img src="img/checkbox.png" class="category-icon, checkbox">
+				<p class="name">animals</p>
+				<p class="products"><img src="img/products.png" class="category-icon"></img>PRODUCTS</p>
+				<p class="edit"><img src="img/edit.png" class="category-icon"></img>EDIT<p>
+			</div>
+			<div class="category-item">
+				<img src="img/checkbox.png" class="category-icon, checkbox">
+				<p class="name">beard</p>
+				<p class="products"><img src="img/products.png" class="category-icon"></img>PRODUCTS</p>
+				<p class="edit"><img src="img/edit.png" class="category-icon"></img>EDIT<p>
+			</div>
+			<div class="category-item">
+				<img src="img/checkbox.png" class="category-icon, checkbox">
+				<p class="name">business</p>
+				<p class="products"><img src="img/products.png" class="category-icon"></img>PRODUCTS</p>
+				<p class="edit"><img src="img/edit.png" class="category-icon"></img>EDIT<p>
+			</div>
+			<div class="category-item">
+				<img src="img/checkbox.png" class="category-icon, checkbox">
+				<p class="name">cars</p>
+				<p class="products"><img src="img/products.png" class="category-icon"></img>PRODUCTS</p>
+				<p class="edit"><img src="img/edit.png" class="category-icon"></img>EDIT<p>
+			</div>
+			<div class="category-item">
+				<img src="img/checkbox.png" class="category-icon, checkbox">
+				<p class="name">city</p>
+				<p class="products"><img src="img/products.png" class="category-icon"></img>PRODUCTS</p>
+				<p class="edit"><img src="img/edit.png" class="category-icon"></img>EDIT<p>
+			</div>
+			<div class="category-item">
+				<img src="img/checkbox.png" class="category-icon, checkbox">
+				<p class="name">flowers</p>
+				<p class="products"><img src="img/products.png" class="category-icon"></img>PRODUCTS</p>
+				<p class="edit"><img src="img/edit.png" class="category-icon"></img>EDIT<p>
+			</div>
+			<div class="category-item">
+				<img src="img/checkbox.png" class="category-icon, checkbox">
+				<p class="name">food</p>
+				<p class="products"><img src="img/products.png" class="category-icon"></img>PRODUCTS</p>
+				<p class="edit"><img src="img/edit.png" class="category-icon"></img>EDIT<p>
+			</div>
+			<div class="category-item">
+				<img src="img/checkbox.png" class="category-icon, checkbox">
+				<p class="name">nature</p>
+				<p class="products"><img src="img/products.png" class="category-icon"></img>PRODUCTS</p>
+				<p class="edit"><img src="img/edit.png" class="category-icon"></img>EDIT<p>
+			</div>		
+			<div class="category-item">
+				<img src="img/checkbox.png" class="category-icon, checkbox">
+				<p class="name">people</p>
+				<p class="products"><img src="img/products.png" class="category-icon"></img>PRODUCTS</p>
+				<p class="edit"><img src="img/edit.png" class="category-icon"></img>EDIT<p>
+			</div>
+			<div class="category-item">
+				<img src="img/checkbox.png" class="category-icon, checkbox">
+				<p class="name">sports</p>
+				<p class="products"><img src="img/products.png" class="category-icon"></img>PRODUCTS</p>
+				<p class="edit"><img src="img/edit.png" class="category-icon"></img>EDIT<p>
+			</div>			
+			<div class="page-controller">
+				<p class="paging">1-10 of 13</p>
+				<a href="#" class="paging">1</a>
+				<a href="#" class="paging">2</a>
+				<a href="#" class="paging">NEXT</a>
+				<img src="img/forward.png" class="category-icon"></img>
+			</div>
+		</div>
+	</div>
+</body>
+
+<script>
+///////////////////////////////
+//vypisanie vsetkych poloziek//
+///////////////////////////////
+
+//var names=["animals", "beard", "business", "cars", "city", "flowers" , "food", "nature", "people", "sports"];
+//var i;
+//
+//for(i=0; i<names.length; i++) {
+//document.getElementById('category-list').innerHTML+=
+//'<div class="category-item">'+
+//'<img src="img/checkbox.png" class="category-icon, checkbox">'+
+//'<p class="name">'+names[i]+'</p>'+
+//'<p class="products"><img src="img/products.png" class="category-icon"></img>PRODUCTS</p>'+
+//'<p class="edit"><img src="img/edit.png" class="category-icon"></img>EDIT<p>'+
+//'</div>';
+//};
+
+var state = 0
+function navbar() {
+	if(state==0) {
+	document.getElementById('navbar-text').style.flex = "0 0 0";
+	document.getElementById('navbar-text').style.overflow = "hidden";
+	document.getElementById('menu').style.webkitTransform = "rotate(180deg)";
+	document.getElementById('menu').style.msTransform = "rotate(180deg)";	
+	document.getElementById('menu').style.transform = "rotate(180deg)";
+	state=1;
+	}
+	else {
+	document.getElementById('navbar-text').style.flex = "0 1 8%";
+	document.getElementById('menu').style.webkitTransform = "rotate(0)";
+	document.getElementById('menu').style.msTransform = "rotate(0)";	
+	document.getElementById('menu').style.transform = "rotate(0)";
+	state=0;
+	}
+}
+
+
+  
+</script>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
